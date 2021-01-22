@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inspirational Quote Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="video-overlay"></div>
+    <video
+      src="video/bg_video.mp4"
+      autoplay="true"
+      loop="true"
+      type="video/mp4"
+    ></video>
+    <div class="app">
+      <header>Inspirational Quotes By Random Authors</header>
+      <section class="quotes">
+        <div class="quote-text" id="js-quote-text"></div>
+      </section>
+      <div id="js-spinner" class="spinner hidden">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+      <section class="controls">
+        <button type="button" id="js-new-quote" class="new-quote button">
+          Generate a new quote
+        </button>
+        <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer"
+          >Tweet it!</a
+        >
+      </section>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
