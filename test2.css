@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-size: 100%;
 }
 
 *,
@@ -47,33 +46,28 @@ video {
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
     0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  -webkit-transform: ;
-  -moz-transform: ;
-  -ms-transform: ;
-  -o-transform: ;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 header {
   width: 100%;
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   border-bottom: 1px solid #ebebeb;
 }
 
 .quotes {
-  padding: 20px;
-  min-height: auto;
-  text-align: center;
+  padding: 20px 50px;
+  min-height: 200px;
 }
 
 .quote-text {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-size: 25px;
   color: black;
 }
@@ -136,13 +130,10 @@ header {
 }
 
 @media (max-width: 350px) {
-  html {
-    font-size: 85%;
-  }
 }
 
 .spinner {
-  margin: 0px auto;
+  margin: 10px auto;
   width: 50px;
   height: 40px;
   text-align: center;
